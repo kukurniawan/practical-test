@@ -1,0 +1,102 @@
+﻿[
+  {
+    "countryCode": "AU",
+    "name": "Maddington"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Macclesfield"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Lyndoch"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Lower Chittering"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Lobethal"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Little Hampton"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Lewiston"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Langhorne Creek"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Darwin"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Perth"
+  },
+  {
+    "countryCode": "AU",
+    "name": "Sydney"
+  },
+  {
+    "countryCode": "GB",
+    "name": "London"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Birmingham"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Cambridge"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Leicester"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Lisburn"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Liverpool"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Manchester"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Norwich"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Nottingham"
+  },
+  {
+    "countryCode": "GB",
+    "name": "Oxford"
+  },
+  {
+    "countryCode": "US",
+    "name": "New York"
+  },
+  {
+    "countryCode": "US",
+    "name": "Los Angeles"
+  },
+  {
+    "countryCode": "US",
+    "name": "Chicago"
+  },
+  {
+    "countryCode": "US",
+    "name": "Houston"
+  }
+]
