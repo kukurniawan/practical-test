@@ -98,5 +98,13 @@
   {
     "countryCode": "US",
     "name": "Houston"
+  },
+  {
+    "countryCode": "ID",
+    "name": "Jakarta"
+  },
+  {
+    "countryCode": "ID",
+    "name": "Bandung"
   }
 ]

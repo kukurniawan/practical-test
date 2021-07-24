@@ -28,6 +28,13 @@ namespace Xtramile.Weather.Api
                     Configuration.GetConnectionString("DefaultConnection")));
             services.AddMediatR(typeof(Startup));
             services.AddSingleton<IHttpService, HttpService>();
+            services.AddCors(options =>
+            {
+                options.AddPolicy("CorsApi",
+                    builder => builder.WithOrigins("http://localhost:3000")
+                        .AllowAnyHeader()
+                        .AllowAnyMethod());
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -41,8 +48,7 @@ namespace Xtramile.Weather.Api
             }
             app.UseFailureMiddleware();
             app.UseRouting();
-
-            app.UseAuthorization();
+            app.UseCors("CorsApi");
 
             app.UseEndpoints(endpoints =>
             {

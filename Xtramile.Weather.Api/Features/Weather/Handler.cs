@@ -45,9 +45,10 @@ namespace Xtramile.Weather.Api.Features.Weather
                 LastUpdate = result.Value.LastUpdate,
                 TemperatureCelsius = Math.Floor(result.Value.MainWeather.TemperatureCelsius()),
                 TemperatureFahrenheit = Math.Floor(result.Value.MainWeather.TemperatureFahrenheit()),
-                DewPoint = Math.Floor(result.Value.MainWeather.DewPoint()),
+                DewPoint = Math.Ceiling(result.Value.MainWeather.DewPoint()),
                 IsSuccessful = true,
-                StatusCode = result.HttpStatusCode
+                StatusCode = result.HttpStatusCode,
+                Clouds = result.Value.Clouds
             };
             return response;
         }

@@ -13,5 +13,6 @@ namespace Xtramile.Weather.Api.Features.Weather
         public double DewPoint { get; set; }
         public int Humidity { get; set; }
         public int Pressure { get; set; }
+        public Cloud Clouds { get; set; }
     }
 }
