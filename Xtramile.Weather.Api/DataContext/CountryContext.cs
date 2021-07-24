@@ -4,6 +4,9 @@ namespace Xtramile.Weather.Api.DataContext
 {
     public class CountryContext : DbContext
     {
+        public CountryContext() {
+        }
+
         public CountryContext(DbContextOptions<CountryContext> options)
             : base(options)
         {

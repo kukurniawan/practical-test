@@ -17,6 +17,7 @@ namespace Xtramile.Weather.Api.Helpers
                 .GetRequiredService<IServiceScopeFactory>()
                 .CreateScope();
             using var context = serviceScope.ServiceProvider.GetService<CountryContext>();
+            if (context.Database.IsInMemory()) return builder;
             context.Database.Migrate();
             return builder;
         }
@@ -32,6 +33,7 @@ namespace Xtramile.Weather.Api.Helpers
                 .GetRequiredService<IServiceScopeFactory>()
                 .CreateScope();
             using var context = serviceScope.ServiceProvider.GetService<CountryContext>();
+            if (context.Database.IsInMemory()) return builder;
             InitCountry(context);
             InitCity(context);
             return builder;
