@@ -49,7 +49,6 @@ namespace Xtramile.Weather.Api
             app.UseFailureMiddleware();
             app.UseRouting();
             app.UseCors("CorsApi");
-
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
